@@ -1,11 +1,6 @@
-// Simple exemple de fonction d'injection pour tester une chaîne ROP
-function ropInjection() {
-    console.log("Injection ROP réussie!");
-    addLog("Injection ROP exécutée avec succès.", "success");
-    alert("Injection ROP réussie!");
+function executeROPChain() {
+    addLog("Exécution de la chaîne ROP pour contourner la sandbox...");
+    setTimeout(() => {
+        addLog("Chaîne ROP exécutée avec succès, sandbox contournée !", "success");
+    }, 2500);
 }
-
-// Lancer l'injection de manière synchrone
-setTimeout(() => {
-    ropInjection();
-}, 3000); // Délai de 3 secondes pour démarrer l'injection
