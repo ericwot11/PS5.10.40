@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS5 Exploit - Interface d'exploitation</title>
+    <style>
+        body {
+            background-color: #1c1c1c;
+            color: #00ff00;
+            font-family: Arial, sans-serif;
+        }
+        button {
+            background-color: #00ff00;
+            color: black;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #008800;
+        }
+        #log-container {
+            background-color: #000;
+            color: #00ff00;
+            padding: 10px;
+            margin-top: 10px;
+            overflow-y: scroll;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exploit PS5 - Interface d'exploitation</h1>
+
+    <button id="launch-exploit-btn">Lancer l'Exploit</button>
+    <button id="webkit-only-btn">WebKit uniquement</button>
+
+    <div id="log-container"></div>
+
+    <script src="exploit.js"></script>
+</body>
+</html>
